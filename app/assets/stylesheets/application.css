@@ -141,13 +141,13 @@ li{
 .pre-wrap{
   font-size: 18px;
   display: inline-block;
-  font-family: 'Meiryo';
+  font-family: sans-serif;
 }
 
 .theme{
   font-size: 25px;
   text-align: center;
-  font-family: 'Meiryo';
+  font-family: sans-serif;
 }
 
 .semitransparent{
@@ -194,7 +194,7 @@ li{
   }
 
   .pre-wrap{
-    font-size: 36px;
+    font-size: 30px;
     padding: 10px 0;
     color: rgb(0, 0, 0);
   }
@@ -204,7 +204,7 @@ li{
   }
 
   .card-footer{
-    font-size: 10px;
+    font-size: 15px;
     color: rgb(0, 0, 0);
   }
 
@@ -247,7 +247,7 @@ li{
   }
 
   .pre-wrap{
-    font-size: 36px;
+    font-size: 30px;
     padding: 10px 0;
     color: rgb(0, 0, 0);
   }
@@ -257,7 +257,7 @@ li{
   }
 
   .card-footer{
-    font-size: 10px;
+    font-size: 15px;
     color: rgb(0, 0, 0);
   }
 
