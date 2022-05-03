@@ -25,7 +25,6 @@ body {
   font-family: 'Noto Serif JP', serif;
 }
 
-
 li {
   list-style: none;
 }
@@ -37,7 +36,7 @@ img {
 
 a {
   text-decoration: none;
-  color: #3b4043;
+  color: black;
 }
 
 
@@ -54,15 +53,16 @@ a {
   display: flex;
   justify-content: space-between;
 }
+
 .logo {
   margin-left: 10px;
   height: 50px;
 }
 
-.nav__right {
+/* .nav__right {
   padding-right: 10px;
   display: flex;
-}
+} */
 
 .main{
   padding-top: 75px;
@@ -124,11 +124,13 @@ li{
 }
 
 .card-body{
-  padding: 3px 10px;
+  padding: 20px 10px;
   border-top: 1px solid black;
 }
 
 .card-footer{
+  margin: 0px;
+  padding: 0px;
   padding: 3px 10px;
   font-size: 14px;
   /* border-top: 1px solid black; */
@@ -138,18 +140,22 @@ li{
 
 .pre-wrap{
   font-size: 18px;
-
+  display: inline-block;
+  font-family: 'Meiryo';
 }
 
 .theme{
   font-size: 25px;
   text-align: center;
+  font-family: 'Meiryo';
 }
 
 .semitransparent{
+  margin: 0px;
+  padding: 0px;
   margin-bottom: 5px;
   margin-right: 5px;
-  display: inline-block;
+  display: block;
 }
 
 .name{
@@ -157,16 +163,105 @@ li{
 }
 
 @media (max-width: 1280px) {
+  body{
+    font-size: 28px;
+  }
+
   .logo_box{
     width: 100vw;
     margin: 0 calc(50% - 50vw);
   }
+
+  .logo {
+    margin-left: 15px;
+    height: 80px;
+  }
+
+  .main{
+    padding-top: 105px;
+  }
+
+  h2{
+    font-size: 45px;
+  }
+
+  .animated-list-item{
+    font-size: 12px;
+  }
+
+  .card-header{
+    font-size: 11px;
+  }
+
+  .pre-wrap{
+    font-size: 36px;
+    padding: 10px 0;
+    color: rgb(0, 0, 0);
+  }
+
+  .theme{
+    font-size: 30px;
+  }
+
+  .card-footer{
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+  }
+
+  .semitransparent{
+    margin-bottom: 7px;
+  }
+
 }
 
  /* スマホ表示 */
 @media (max-width: 599px) {
+  body{
+    font-size: 28px;
+  }
+
   .logo_box{
     width: 100vw;
     margin: 0 calc(50% - 50vw);
+  }
+
+  .logo {
+    margin-left: 15px;
+    height: 80px;
+  }
+
+  .main{
+    padding-top: 105px;
+  }
+
+  h2{
+    font-size: 45px;
+  }
+
+  .animated-list-item{
+    font-size: 12px;
+  }
+
+  .card-header{
+    font-size: 11px;
+  }
+
+  .pre-wrap{
+    font-size: 36px;
+    padding: 10px 0;
+    color: rgb(0, 0, 0);
+  }
+
+  .theme{
+    font-size: 30px;
+  }
+
+  .card-footer{
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+  }
+
+  .semitransparent{
+    margin-bottom: 7px;
   }
 }
